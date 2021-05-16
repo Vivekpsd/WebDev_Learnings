@@ -36,10 +36,10 @@ function showNotes() {
 
   let html = '';
   notesObj.forEach(function (element, index) {
-    html += `<div class="col-6 mt-2">
-        <div class="card">
+    html += `<div class="col-6 mt-3">
+        <div class="card shadow-lg">
             <div class="card-body">
-              <h5 class="card-title">Note ${index + 1}</h5>
+              <h5 class="card-title">Note ${index + 1}</h5><hr>
               <p class="card-text">${element}</p>
               <a href="#" class="btn btn-danger" id=${index} onclick="deleteNote(this.id)">Delete Note</a>
             </div>
