@@ -1,21 +1,4 @@
-if (localStorage.getItem.length === 0) {
-  var addBtn = document.getElementById('addBtn');
-
-  let notes = localStorage.getItem('notes');
-  if (notes == null) {
-    notesObj = [];
-  } else {
-    notesObj = JSON.parse(notes);
-  }
-  let addMessage = document.getElementById('message');
-  notesObj.push(addMessage.value);
-  localStorage.setItem('notes', JSON.stringify(notesObj));
-
-  addMessage.value = '';
-
-  showNotes();
-}
-
+showNotes();
 var addBtn = document.getElementById('addBtn');
 
 addBtn.addEventListener('click', function (e) {
