@@ -19,21 +19,20 @@ const songs = [
   },
   {
     name: 'jacinto-2',
-    displayName: 'Base Guitar Freestyle',
-    artist: 'Rose Archer',
+    displayName: 'Seven Nation Army (Remix)',
+    artist: 'Jacinto Design',
   },
   {
     name: 'jacinto-3',
-    displayName: 'Jazz Music (Remix)',
-    artist: 'Jacinto Design/Martin',
+    displayName: 'Goodnight, Disco Queen',
+    artist: 'Jacinto Design',
   },
   {
     name: 'jacinto-4',
-    displayName: 'Lofi Chill Beats',
-    artist: 'John Carter',
+    displayName: 'Front Row (Remix)',
+    artist: 'Metric/Jacinto Design',
   },
 ];
-
 // Check if Playing
 let isPlaying = false;
 
